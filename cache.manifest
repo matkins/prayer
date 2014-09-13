@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# Revision 2
+# Revision 3
 CACHE:
 index.html
 css/normalize.css
@@ -9,7 +9,5 @@ js/moment.js
 js/main.js
 img/bg.jpg
 img/bg@2x.jpg
-img/header.jpg
-img/header@2x.jpg
 img/titles.png
 img/titles@2x.png
