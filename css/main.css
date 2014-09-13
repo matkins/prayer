@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  text-align:center;
+  background: #f9f9f9 url('../img/bg.jpg') center 0 no-repeat;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  color:#4C4C4C;
+  font-size:22px;
+  background-size:600px auto;
+}
+header {
+  width:100%;
+  height:100px;
+  background: #28292B url('../img/header.jpg') center 0 no-repeat;
+  background-size:auto 100px;
+}
+.day-nav{
+  background:#aaa;
+}
+table {
+  width:100%;
+  font-size:19px;
+  text-align:center;
+}
+table td a,
+table td span{
+  padding:15px 0px;
+  line-height:24px;
+}
+table td a{
+  text-decoration:none;
+  font-weight:bold;
+  color:#222;
+}
+table td {
+  height:54px;
+  color:#222;
+}
+table td.nav{
+  width:45px;
+  font-size:30px;
+  text-align:center;
+}
+.title {
+  height:34px;
+  width:100%;
+  margin:25px 0px 18px;
+  background: url('../img/titles.png') center 1px no-repeat;
+}
+#title-noon{
+  background-position-y: -54px;
+}
+#title-afternoon{
+  background-position-y: -108px;
+}
+#noon{
+  padding:0px 20px;
+  font-style:italic;
+  line-height:1.3;
+  max-width: 400px;
+  margin: 0 auto;
+}
+a.psalm{
+  color:rgb(190,30,45);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi){ 
+  body {
+    background-image: url('../img/bg@2x.jpg');
+    background-size:600px auto;
+  }
+  header {
+    background-image: url('../img/header@2x.jpg');
+    background-size:auto 100px;
+  }
+  .title {
+    background-image: url('../img/titles@2x.png');
+    background-size:auto 150px;
+  }
+}
