@@ -30,7 +30,7 @@ function renderSchedule(){
   $('#date').html(moment(currentDate).format('dddd Do MMMM'));
   currentPsalm = psalm(currentDate);
   var url = 'https://www.bible.com/bible/111/psa.' + currentPsalm + '.niv';
-  $('#morning').html('<a href="'+url+'" class="psalm">Psalm ' + currentPsalm + '</a>');
+  $('#morning').html('<a href="'+url+'" class="psalm" target="_blank">Psalm ' + currentPsalm + '</a>');
   $('#noon').html(lordsPrayer(currentDate));
 }
 
